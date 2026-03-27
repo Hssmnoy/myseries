@@ -14,20 +14,40 @@ jobs:
     timeout-minutes: 350
 
     steps:
+      # ✅ สำคัญมาก (ห้ามลืม)
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # ✅ setup node
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: "npm"
 
-      - run: npm install axios cheerio fs-extra
+      # ✅ ถ้ามี package.json ให้ใช้ npm ci
+      - name: Install deps
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install axios cheerio fs-extra
+          fi
 
+      # ✅ run script
       - name: Run script
         run: node my.js
 
+      # ✅ push (กัน fail)
       - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+
           git add .
+
           git commit -m "update data" || echo "no commit"
-          git push
+
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
