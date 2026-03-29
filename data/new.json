@@ -6,6 +6,34 @@
     "updated_at": 1774588720145,
     "episodes": [
       {
+        "name": "EP27",
+        "ep": 27,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/a0f5e469ec3164d90297070b4c6da3c0"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/a0f5e469ec3164d90297070b4c6da3c0"
+          }
+        ]
+      },
+      {
+        "name": "EP26",
+        "ep": 26,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/31030e65303160f9d910382079d505ba"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/31030e65303160f9d910382079d505ba"
+          }
+        ]
+      },
+      {
         "name": "EP25",
         "ep": 25,
         "servers": [
@@ -931,6 +959,34 @@
     "link": "https://myserieshd.com/generation-to-generation-2026/",
     "updated_at": 1774588761960,
     "episodes": [
+      {
+        "name": "EP26",
+        "ep": 26,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/073e060e885999858f48df1a5cb435d8"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/073e060e885999858f48df1a5cb435d8"
+          }
+        ]
+      },
+      {
+        "name": "EP25",
+        "ep": 25,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/5767450164739fb8594c5b1628a9e002"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/5767450164739fb8594c5b1628a9e002"
+          }
+        ]
+      },
       {
         "name": "EP24",
         "ep": 24,
