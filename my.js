@@ -209,7 +209,7 @@ async function runCategory(name, path) {
   continue;
 
 } else {
-  // 🔥 ถ้ามี links = reset counter
+  emptyPageCount = 0;
   
 }
 
@@ -221,7 +221,8 @@ async function runCategory(name, path) {
 
     let count = 0;
     let newItemInPage = false;
-  
+    let newEpisodeInPage = false;
+    
     for (let link of links) {
 
       if (MODE === "test" && count >= TEST_LIMIT) {
@@ -239,7 +240,7 @@ async function runCategory(name, path) {
         if (existing) {
 
           if (data.newEpisodes.length > 0) {
-
+            newEpisodeInPage = true;
             existing.episodes.push(...data.newEpisodes);
 
             // 🔥 sort ด้วย ep
@@ -284,7 +285,7 @@ async function runCategory(name, path) {
       }
     }
 
-if (!newItemInPage) {
+if (!newItemInPage && !newEpisodeInPage) {
   emptyPageCount++;
   console.log("⚠️ ไม่มีเรื่องใหม่ในหน้านี้");
 
