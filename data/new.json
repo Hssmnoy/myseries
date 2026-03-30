@@ -6,6 +6,34 @@
     "updated_at": 1774588720145,
     "episodes": [
       {
+        "name": "EP29",
+        "ep": 29,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/6e405db99b252e67efb3908d4ff37ba8"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/6e405db99b252e67efb3908d4ff37ba8"
+          }
+        ]
+      },
+      {
+        "name": "EP28",
+        "ep": 28,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/12eddfbeef0d7063071d07a01aafcc41"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/12eddfbeef0d7063071d07a01aafcc41"
+          }
+        ]
+      },
+      {
         "name": "EP27",
         "ep": 27,
         "servers": [
@@ -959,6 +987,34 @@
     "link": "https://myserieshd.com/generation-to-generation-2026/",
     "updated_at": 1774588761960,
     "episodes": [
+      {
+        "name": "EP28",
+        "ep": 28,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/2edbe613b9c7af5c91aaae0fd9f4e445"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/2edbe613b9c7af5c91aaae0fd9f4e445"
+          }
+        ]
+      },
+      {
+        "name": "EP27",
+        "ep": 27,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/89227f7c46c1d70b5d246d97a2ee2c1d"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/89227f7c46c1d70b5d246d97a2ee2c1d"
+          }
+        ]
+      },
       {
         "name": "EP26",
         "ep": 26,
@@ -4364,86 +4420,30 @@
     "updated_at": 1774588923403,
     "episodes": [
       {
-        "name": "EP1",
-        "ep": 1,
+        "name": "EP9",
+        "ep": 9,
         "servers": [
           {
             "name": "main",
-            "url": "https://ok-hd.com/play/7304ca56571aad47d7b81e0585d5fcc3"
+            "url": "https://ok-hd.com/play/711a9bd3615ac93dd112b9cd7b769255"
           },
           {
             "name": "backup",
-            "url": "https://top-cdn.com/play/7304ca56571aad47d7b81e0585d5fcc3"
+            "url": "https://top-cdn.com/play/711a9bd3615ac93dd112b9cd7b769255"
           }
         ]
       },
       {
-        "name": "EP2",
-        "ep": 2,
+        "name": "EP8",
+        "ep": 8,
         "servers": [
           {
             "name": "main",
-            "url": "https://ok-hd.com/play/f4f30dbef7a7dba046d354e9a36ceacd"
+            "url": "https://ok-hd.com/play/6f97c346f06e82478e8d868e2b22cc1a"
           },
           {
             "name": "backup",
-            "url": "https://top-cdn.com/play/f4f30dbef7a7dba046d354e9a36ceacd"
-          }
-        ]
-      },
-      {
-        "name": "EP3",
-        "ep": 3,
-        "servers": [
-          {
-            "name": "main",
-            "url": "https://ok-hd.com/play/e90c5ec36167456f7d657fdee44e2b15"
-          },
-          {
-            "name": "backup",
-            "url": "https://top-cdn.com/play/e90c5ec36167456f7d657fdee44e2b15"
-          }
-        ]
-      },
-      {
-        "name": "EP4",
-        "ep": 4,
-        "servers": [
-          {
-            "name": "main",
-            "url": "https://ok-hd.com/play/7aca3db5e10bd9c153308e6829c48600"
-          },
-          {
-            "name": "backup",
-            "url": "https://top-cdn.com/play/7aca3db5e10bd9c153308e6829c48600"
-          }
-        ]
-      },
-      {
-        "name": "EP5",
-        "ep": 5,
-        "servers": [
-          {
-            "name": "main",
-            "url": "https://ok-hd.com/play/b0f311cce6f3a242674e62af83586561"
-          },
-          {
-            "name": "backup",
-            "url": "https://top-cdn.com/play/b0f311cce6f3a242674e62af83586561"
-          }
-        ]
-      },
-      {
-        "name": "EP6",
-        "ep": 6,
-        "servers": [
-          {
-            "name": "main",
-            "url": "https://ok-hd.com/play/3d8d9c56f66a8589471833c989cf8dd1"
-          },
-          {
-            "name": "backup",
-            "url": "https://top-cdn.com/play/3d8d9c56f66a8589471833c989cf8dd1"
+            "url": "https://top-cdn.com/play/6f97c346f06e82478e8d868e2b22cc1a"
           }
         ]
       },
@@ -4462,16 +4462,86 @@
         ]
       },
       {
-        "name": "EP8",
-        "ep": 8,
+        "name": "EP6",
+        "ep": 6,
         "servers": [
           {
             "name": "main",
-            "url": "https://ok-hd.com/play/6f97c346f06e82478e8d868e2b22cc1a"
+            "url": "https://ok-hd.com/play/3d8d9c56f66a8589471833c989cf8dd1"
           },
           {
             "name": "backup",
-            "url": "https://top-cdn.com/play/6f97c346f06e82478e8d868e2b22cc1a"
+            "url": "https://top-cdn.com/play/3d8d9c56f66a8589471833c989cf8dd1"
+          }
+        ]
+      },
+      {
+        "name": "EP5",
+        "ep": 5,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/b0f311cce6f3a242674e62af83586561"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/b0f311cce6f3a242674e62af83586561"
+          }
+        ]
+      },
+      {
+        "name": "EP4",
+        "ep": 4,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/7aca3db5e10bd9c153308e6829c48600"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/7aca3db5e10bd9c153308e6829c48600"
+          }
+        ]
+      },
+      {
+        "name": "EP3",
+        "ep": 3,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/e90c5ec36167456f7d657fdee44e2b15"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/e90c5ec36167456f7d657fdee44e2b15"
+          }
+        ]
+      },
+      {
+        "name": "EP2",
+        "ep": 2,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/f4f30dbef7a7dba046d354e9a36ceacd"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/f4f30dbef7a7dba046d354e9a36ceacd"
+          }
+        ]
+      },
+      {
+        "name": "EP1",
+        "ep": 1,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/7304ca56571aad47d7b81e0585d5fcc3"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/7304ca56571aad47d7b81e0585d5fcc3"
           }
         ]
       }
@@ -5152,6 +5222,28 @@
           {
             "name": "backup",
             "url": "https://top-cdn.com/play/f07e5a9c2731b6611c4f2a1c78a80a6c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "ดูซีรี่ย์ไทย Love Upon A Time (2026) ภพเธอ EP.1-12 (เต็มเรื่อง)",
+    "image": "https://myserieshd.com/wp-content/uploads/2026/03/ภพเธอ-111.webp",
+    "link": "https://myserieshd.com/love-upon-a-time-2026/",
+    "updated_at": 1774886380441,
+    "episodes": [
+      {
+        "name": "EP1",
+        "ep": 1,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/dc348cdc1eaf48082f386a135cd2ae4d"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/dc348cdc1eaf48082f386a135cd2ae4d"
           }
         ]
       }
