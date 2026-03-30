@@ -182,72 +182,30 @@
     "updated_at": 1774601576983,
     "episodes": [
       {
-        "name": "EP1",
-        "ep": 1,
+        "name": "EP8",
+        "ep": 8,
         "servers": [
           {
             "name": "main",
-            "url": "https://ok-hd.com/play/6aba40c30ad42631bc485495312b623c"
+            "url": "https://ok-hd.com/play/e9d388a6064a0774e547904b18a30f44"
           },
           {
             "name": "backup",
-            "url": "https://top-cdn.com/play/6aba40c30ad42631bc485495312b623c"
+            "url": "https://top-cdn.com/play/e9d388a6064a0774e547904b18a30f44"
           }
         ]
       },
       {
-        "name": "EP2",
-        "ep": 2,
+        "name": "EP7",
+        "ep": 7,
         "servers": [
           {
             "name": "main",
-            "url": "https://ok-hd.com/play/53b2e2922ad32fb7b3e71d93c1ac1893"
+            "url": "https://ok-hd.com/play/52e197a55f7840354e9f804dc38adaae"
           },
           {
             "name": "backup",
-            "url": "https://top-cdn.com/play/53b2e2922ad32fb7b3e71d93c1ac1893"
-          }
-        ]
-      },
-      {
-        "name": "EP3",
-        "ep": 3,
-        "servers": [
-          {
-            "name": "main",
-            "url": "https://ok-hd.com/play/542e3864672dc11eef57a42ba1efe8a0"
-          },
-          {
-            "name": "backup",
-            "url": "https://top-cdn.com/play/542e3864672dc11eef57a42ba1efe8a0"
-          }
-        ]
-      },
-      {
-        "name": "EP4",
-        "ep": 4,
-        "servers": [
-          {
-            "name": "main",
-            "url": "https://ok-hd.com/play/6b6c5be9a13ca6ee8c9d6447b39e7d30"
-          },
-          {
-            "name": "backup",
-            "url": "https://top-cdn.com/play/6b6c5be9a13ca6ee8c9d6447b39e7d30"
-          }
-        ]
-      },
-      {
-        "name": "EP5",
-        "ep": 5,
-        "servers": [
-          {
-            "name": "main",
-            "url": "https://ok-hd.com/play/e29493cbd490577739e1c2a30c84bbfa"
-          },
-          {
-            "name": "backup",
-            "url": "https://top-cdn.com/play/e29493cbd490577739e1c2a30c84bbfa"
+            "url": "https://top-cdn.com/play/52e197a55f7840354e9f804dc38adaae"
           }
         ]
       },
@@ -266,16 +224,72 @@
         ]
       },
       {
-        "name": "EP7",
-        "ep": 7,
+        "name": "EP5",
+        "ep": 5,
         "servers": [
           {
             "name": "main",
-            "url": "https://ok-hd.com/play/52e197a55f7840354e9f804dc38adaae"
+            "url": "https://ok-hd.com/play/e29493cbd490577739e1c2a30c84bbfa"
           },
           {
             "name": "backup",
-            "url": "https://top-cdn.com/play/52e197a55f7840354e9f804dc38adaae"
+            "url": "https://top-cdn.com/play/e29493cbd490577739e1c2a30c84bbfa"
+          }
+        ]
+      },
+      {
+        "name": "EP4",
+        "ep": 4,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/6b6c5be9a13ca6ee8c9d6447b39e7d30"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/6b6c5be9a13ca6ee8c9d6447b39e7d30"
+          }
+        ]
+      },
+      {
+        "name": "EP3",
+        "ep": 3,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/542e3864672dc11eef57a42ba1efe8a0"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/542e3864672dc11eef57a42ba1efe8a0"
+          }
+        ]
+      },
+      {
+        "name": "EP2",
+        "ep": 2,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/53b2e2922ad32fb7b3e71d93c1ac1893"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/53b2e2922ad32fb7b3e71d93c1ac1893"
+          }
+        ]
+      },
+      {
+        "name": "EP1",
+        "ep": 1,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/6aba40c30ad42631bc485495312b623c"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/6aba40c30ad42631bc485495312b623c"
           }
         ]
       }
