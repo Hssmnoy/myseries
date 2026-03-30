@@ -176,7 +176,7 @@ async function scrapeDetail(url, existingData) {
 async function runCategory(name, path) {
   console.log(`\n📂 CATEGORY: ${name}`);
 
-  let page = progress[name]?.page || 1;
+  let page = 1;
   let doneUrls = progress[name]?.done || [];
 
   let results = fs.existsSync(`data/${name}.json`)
@@ -186,6 +186,10 @@ async function runCategory(name, path) {
 
 
   while (true) {
+    if (page > 3) {
+  console.log("🛑 ครบ 3 หน้า → จบหมวด");
+  break;
+}
     const url = `${BASE}${path}page/${page}/`;
     console.log(`\n📄 Page ${page}`);
 
@@ -287,10 +291,10 @@ async function runCategory(name, path) {
 
 if (!newItemInPage && !newEpisodeInPage) {
   emptyPageCount++;
-  console.log("⚠️ ไม่มีเรื่องใหม่ในหน้านี้");
+  console.log(`⛔ ไม่มีอะไรใหม่ (${emptyPageCount}/3)`);
 
-  if (emptyPageCount >= 2) {
-    console.log("🛑 ไม่มีเรื่องใหม่ 2 หน้า → จบหมวด");
+  if (emptyPageCount >= 3) {
+    console.log("🛑 3 หน้าแรกไม่มีอะไรใหม่ → จบหมวด");
     break;
   }
 } else {
