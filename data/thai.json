@@ -86936,5 +86936,41 @@
         ]
       }
     ]
+  },
+  {
+    "title": "ดูซีรี่ย์ไทย The Water 4 Elements (2026) นทีร้อยเล่ห์ บ้านวาทินวณิช",
+    "image": "https://myserieshd.com/wp-content/uploads/2026/03/นทีร้อยเล่ห์-บ้านวาทินวณิช-111.webp",
+    "link": "https://myserieshd.com/the-water-4-elements-2026/",
+    "updated_at": 1774886557949,
+    "episodes": [
+      {
+        "name": "EP1",
+        "ep": 1,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/f07e5a9c2731b6611c4f2a1c78a80a6c"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/f07e5a9c2731b6611c4f2a1c78a80a6c"
+          }
+        ]
+      },
+      {
+        "name": "EP2",
+        "ep": 2,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/b91fbd1ddcb690f86a838c30b483dfed"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/b91fbd1ddcb690f86a838c30b483dfed"
+          }
+        ]
+      }
+    ]
   }
 ]
