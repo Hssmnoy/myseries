@@ -237,38 +237,49 @@ async function runCategory(name, path) {
       console.log(`\n🎬 ${link}`);
 
       try {
-        const existing = results.find(r => r.link === link);
+  const existing = results.find(r => r.link === link);
 
-        const data = await scrapeDetail(link, existing);
+  const data = await scrapeDetail(link, existing);
 
-        if (existing) {
+  if (existing) {
 
-          if (data.newEpisodes.length > 0) {
-            newEpisodeInPage = true;
-            existing.episodes.push(...data.newEpisodes);
+    if (data.newEpisodes.length > 0) {
+      newEpisodeInPage = true;
 
-            // 🔥 sort ด้วย ep
-            existing.episodes.sort((a, b) => b.ep - a.ep);
+      existing.episodes.push(...data.newEpisodes);
+      existing.episodes.sort((a, b) => b.ep - a.ep);
 
-            console.log(`✨ UPDATE ${data.title} +${data.newEpisodes.length}`);
-          }
-
-        } else {
-
-          results.push({
-            title: data.title,
-            image: data.image,
-            link,
-            updated_at: Date.now(),
-            episodes: data.newEpisodes
-          });
-
-          console.log(`🆕 NEW ${data.title}`);
-
-          newItemInPage = true;
+      if (!existing._moved) {
+        const index = results.findIndex(x => x.link === existing.link);
+        if (index > 0) {
+          results.splice(index, 1);
+          results.unshift(existing);
         }
+        existing._moved = true;
+      }
 
-        doneUrls.push(link);
+      console.log(`✨ UPDATE ${data.title} +${data.newEpisodes.length}`);
+    }
+
+  } else {
+
+    results.unshift({
+      title: data.title,
+      image: data.image,
+      link,
+      updated_at: Date.now(),
+      episodes: data.newEpisodes
+    });
+
+    newItemInPage = true;
+  }
+
+  // ✅ ย้ายมาไว้ใน try เท่านั้น
+  doneUrls.push(link);
+
+} catch (err) {
+  console.log("❌ ERROR:", link);
+}
 
         await fs.writeJson(`data/${name}.json`, results, { spaces: 2 });
 
