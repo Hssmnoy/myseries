@@ -229,76 +229,72 @@ async function runCategory(name, path) {
     
     for (let link of links) {
 
-      if (MODE === "test" && count >= TEST_LIMIT) {
-        console.log("🧪 TEST STOP");
-        break;
-      }
-
-      console.log(`\n🎬 ${link}`);
-
-      try {
-  const existing = results.find(r => r.link === link);
-
-  const data = await scrapeDetail(link, existing);
-
-  if (existing) {
-
-    if (data.newEpisodes.length > 0) {
-      newEpisodeInPage = true;
-
-      existing.episodes.push(...data.newEpisodes);
-      existing.episodes.sort((a, b) => b.ep - a.ep);
-
-      if (!existing._moved) {
-        const index = results.findIndex(x => x.link === existing.link);
-        if (index > 0) {
-          results.splice(index, 1);
-          results.unshift(existing);
-        }
-        existing._moved = true;
-      }
-
-      console.log(`✨ UPDATE ${data.title} +${data.newEpisodes.length}`);
-    }
-
-  } else {
-
-    results.unshift({
-      title: data.title,
-      image: data.image,
-      link,
-      updated_at: Date.now(),
-      episodes: data.newEpisodes
-    });
-
-    newItemInPage = true;
+  if (MODE === "test" && count >= TEST_LIMIT) {
+    console.log("🧪 TEST STOP");
+    break;
   }
 
-  // ✅ ย้ายมาไว้ใน try เท่านั้น
-  doneUrls.push(link);
+  console.log(`\n🎬 ${link}`);
 
-} catch (err) {
-  console.log("❌ ERROR:", link);
-}
+  try {
+    const existing = results.find(r => r.link === link);
 
-        await fs.writeJson(`data/${name}.json`, results, { spaces: 2 });
+    const data = await scrapeDetail(link, existing);
 
-        progress[name] = { page, done: doneUrls };
-        await fs.writeJson("progress.tmp.json", progress, { spaces: 2 });
-        await fs.move("progress.tmp.json", "progress.json", { overwrite: true });
+    if (existing) {
 
-        processedCount++;
-        count++;
+      if (data.newEpisodes.length > 0) {
+        newEpisodeInPage = true;
 
-        // 🔥 commit ทุก 10 เรื่อง
-        if (processedCount % COMMIT_EVERY === 0) {
-          autoCommit();
+        existing.episodes.push(...data.newEpisodes);
+        existing.episodes.sort((a, b) => b.ep - a.ep);
+
+        if (!existing._moved) {
+          const index = results.findIndex(x => x.link === existing.link);
+          if (index > 0) {
+            results.splice(index, 1);
+            results.unshift(existing);
+          }
+          existing._moved = true;
         }
 
-      } catch {
-        console.log("❌ ERROR:", link);
+        console.log(`✨ UPDATE ${data.title} +${data.newEpisodes.length}`);
       }
+
+    } else {
+
+      results.unshift({
+        title: data.title,
+        image: data.image,
+        link,
+        updated_at: Date.now(),
+        episodes: data.newEpisodes
+      });
+
+      newItemInPage = true;
     }
+
+    // ✅ อยู่ใน try
+    doneUrls.push(link);
+
+    // ✅ save + progress อยู่ใน try ได้
+    await fs.writeJson(`data/${name}.json`, results, { spaces: 2 });
+
+    progress[name] = { page, done: doneUrls };
+    await fs.writeJson("progress.tmp.json", progress, { spaces: 2 });
+    await fs.move("progress.tmp.json", "progress.json", { overwrite: true });
+
+    processedCount++;
+    count++;
+
+    if (processedCount % COMMIT_EVERY === 0) {
+      autoCommit();
+    }
+
+  } catch (err) {
+    console.log("❌ ERROR:", link);
+  }
+}
 
 if (!newItemInPage && !newEpisodeInPage) {
   emptyPageCount++;
