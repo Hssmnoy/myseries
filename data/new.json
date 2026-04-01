@@ -6,6 +6,34 @@
     "updated_at": 1774588761960,
     "episodes": [
       {
+        "name": "EP32",
+        "ep": 32,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/88f4fcb7f149fd14bf3c0653824d4f6e"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/88f4fcb7f149fd14bf3c0653824d4f6e"
+          }
+        ]
+      },
+      {
+        "name": "EP31",
+        "ep": 31,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/0283d6b8d94ef7d07ffdfa9552729c92"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/0283d6b8d94ef7d07ffdfa9552729c92"
+          }
+        ]
+      },
+      {
         "name": "EP30",
         "ep": 30,
         "servers": [
@@ -434,6 +462,20 @@
     "link": "https://myserieshd.com/dream-of-golden-years-2026/",
     "updated_at": 1774588720145,
     "episodes": [
+      {
+        "name": "EP31",
+        "ep": 31,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/c1230655ab9fe694ffa60e437709a041"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/c1230655ab9fe694ffa60e437709a041"
+          }
+        ]
+      },
       {
         "name": "EP30",
         "ep": 30,
