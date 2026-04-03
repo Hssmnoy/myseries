@@ -197,6 +197,20 @@
     "updated_at": 1774588826730,
     "episodes": [
       {
+        "name": "EP18",
+        "ep": 18,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/5aec804605de112093b650b0a17c7ab4"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/5aec804605de112093b650b0a17c7ab4"
+          }
+        ]
+      },
+      {
         "name": "EP17",
         "ep": 17,
         "servers": [
@@ -443,6 +457,20 @@
     "link": "https://myserieshd.com/money-my-love-2026/",
     "updated_at": 1774588838010,
     "episodes": [
+      {
+        "name": "EP18",
+        "ep": 18,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/e2c1765eca9f4b18f4c99093c2b3cedf"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/e2c1765eca9f4b18f4c99093c2b3cedf"
+          }
+        ]
+      },
       {
         "name": "EP17",
         "ep": 17,
@@ -1072,6 +1100,20 @@
     "link": "https://myserieshd.com/generation-to-generation-2026/",
     "updated_at": 1774588761960,
     "episodes": [
+      {
+        "name": "EP34",
+        "ep": 34,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/7c2ebb5991193d82e65dfb12b5561534"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/7c2ebb5991193d82e65dfb12b5561534"
+          }
+        ]
+      },
       {
         "name": "EP33",
         "ep": 33,
