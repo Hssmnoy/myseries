@@ -1254,6 +1254,20 @@
     "updated_at": 1774588917631,
     "episodes": [
       {
+        "name": "EP11",
+        "ep": 11,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/0e933d66e2968285df44057807e6ec92"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/0e933d66e2968285df44057807e6ec92"
+          }
+        ]
+      },
+      {
         "name": "EP10",
         "ep": 10,
         "servers": [
@@ -2648,6 +2662,20 @@
     "updated_at": 1774588911845,
     "episodes": [
       {
+        "name": "EP5",
+        "ep": 5,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/869c85b2958a1b88b6b37ddd0948b5a2"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/869c85b2958a1b88b6b37ddd0948b5a2"
+          }
+        ]
+      },
+      {
         "name": "EP4",
         "ep": 4,
         "servers": [
@@ -2712,6 +2740,20 @@
     "link": "https://myserieshd.com/the-last-duel-2026/",
     "updated_at": 1774588881766,
     "episodes": [
+      {
+        "name": "EP7",
+        "ep": 7,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/388078e8515a2f4633d51318dc381adb"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/388078e8515a2f4633d51318dc381adb"
+          }
+        ]
+      },
       {
         "name": "EP6",
         "ep": 6,
@@ -2805,6 +2847,20 @@
     "link": "https://myserieshd.com/friends-on-fire-2026/",
     "updated_at": 1774588891690,
     "episodes": [
+      {
+        "name": "EP17",
+        "ep": 17,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/3ca4a7861474db4b795c8d967a737963"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/3ca4a7861474db4b795c8d967a737963"
+          }
+        ]
+      },
       {
         "name": "EP16",
         "ep": 16,
