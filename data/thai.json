@@ -1254,6 +1254,20 @@
     "updated_at": 1774605210648,
     "episodes": [
       {
+        "name": "EP5",
+        "ep": 5,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/869c85b2958a1b88b6b37ddd0948b5a2"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/869c85b2958a1b88b6b37ddd0948b5a2"
+          }
+        ]
+      },
+      {
         "name": "EP4",
         "ep": 4,
         "servers": [
@@ -1318,6 +1332,20 @@
     "link": "https://myserieshd.com/the-last-duel-2026/",
     "updated_at": 1774605180654,
     "episodes": [
+      {
+        "name": "EP7",
+        "ep": 7,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/388078e8515a2f4633d51318dc381adb"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/388078e8515a2f4633d51318dc381adb"
+          }
+        ]
+      },
       {
         "name": "EP6",
         "ep": 6,
