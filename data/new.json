@@ -1254,6 +1254,20 @@
     "updated_at": 1774588917631,
     "episodes": [
       {
+        "name": "EP12",
+        "ep": 12,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/8f116134bd619e96a96b5bc60f57873d"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/8f116134bd619e96a96b5bc60f57873d"
+          }
+        ]
+      },
+      {
         "name": "EP11",
         "ep": 11,
         "servers": [
@@ -1416,6 +1430,34 @@
     "link": "https://myserieshd.com/first-choice-2025/",
     "updated_at": 1774588846511,
     "episodes": [
+      {
+        "name": "EP18",
+        "ep": 18,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/69b94ddf4ba813ea442da79982c110fc"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/69b94ddf4ba813ea442da79982c110fc"
+          }
+        ]
+      },
+      {
+        "name": "EP17",
+        "ep": 17,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/d5f2e7d7cee5ec175ad068664cde573e"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/d5f2e7d7cee5ec175ad068664cde573e"
+          }
+        ]
+      },
       {
         "name": "EP16",
         "ep": 16,
@@ -2755,6 +2797,20 @@
     "updated_at": 1774588881766,
     "episodes": [
       {
+        "name": "EP8",
+        "ep": 8,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/44ecf7356d822ecb91f4c20d5461ede1"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/44ecf7356d822ecb91f4c20d5461ede1"
+          }
+        ]
+      },
+      {
         "name": "EP7",
         "ep": 7,
         "servers": [
@@ -2861,6 +2917,20 @@
     "link": "https://myserieshd.com/friends-on-fire-2026/",
     "updated_at": 1774588891690,
     "episodes": [
+      {
+        "name": "EP18",
+        "ep": 18,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/f6ebe26e2ec61d59d43e4b0ea59bfeda"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/f6ebe26e2ec61d59d43e4b0ea59bfeda"
+          }
+        ]
+      },
       {
         "name": "EP17",
         "ep": 17,
