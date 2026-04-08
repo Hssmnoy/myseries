@@ -1440,6 +1440,20 @@
     "updated_at": 1774605190554,
     "episodes": [
       {
+        "name": "EP18",
+        "ep": 18,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/f6ebe26e2ec61d59d43e4b0ea59bfeda"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/f6ebe26e2ec61d59d43e4b0ea59bfeda"
+          }
+        ]
+      },
+      {
         "name": "EP17",
         "ep": 17,
         "servers": [
