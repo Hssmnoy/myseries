@@ -2177,6 +2177,20 @@
     "updated_at": 1774588720145,
     "episodes": [
       {
+        "name": "EP35",
+        "ep": 35,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/b0c23849c472512a16ae415be86afbde"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/b0c23849c472512a16ae415be86afbde"
+          }
+        ]
+      },
+      {
         "name": "EP34",
         "ep": 34,
         "servers": [
