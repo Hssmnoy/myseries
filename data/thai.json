@@ -541,6 +541,20 @@
     "updated_at": 1774605177083,
     "episodes": [
       {
+        "name": "EP14",
+        "ep": 14,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/d959a9e3b1303ced0dddf486d5ca335b"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/d959a9e3b1303ced0dddf486d5ca335b"
+          }
+        ]
+      },
+      {
         "name": "EP13",
         "ep": 13,
         "servers": [
@@ -731,6 +745,20 @@
     "link": "https://myserieshd.com/the-gift-2026/",
     "updated_at": 1774605157355,
     "episodes": [
+      {
+        "name": "EP19",
+        "ep": 19,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/b7df909daa2a6fd3dce8b83c833c1a82"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/b7df909daa2a6fd3dce8b83c833c1a82"
+          }
+        ]
+      },
       {
         "name": "EP18",
         "ep": 18,
@@ -992,6 +1020,20 @@
     "link": "https://myserieshd.com/money-my-love-2026/",
     "updated_at": 1774605168586,
     "episodes": [
+      {
+        "name": "EP19",
+        "ep": 19,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/20934cb3a33fdc32f7bca52064859253"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/20934cb3a33fdc32f7bca52064859253"
+          }
+        ]
+      },
       {
         "name": "EP18",
         "ep": 18,
