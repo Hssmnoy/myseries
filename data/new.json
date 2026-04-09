@@ -732,6 +732,20 @@
     "updated_at": 1774588826730,
     "episodes": [
       {
+        "name": "EP19",
+        "ep": 19,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/b7df909daa2a6fd3dce8b83c833c1a82"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/b7df909daa2a6fd3dce8b83c833c1a82"
+          }
+        ]
+      },
+      {
         "name": "EP18",
         "ep": 18,
         "servers": [
@@ -992,6 +1006,20 @@
     "link": "https://myserieshd.com/money-my-love-2026/",
     "updated_at": 1774588838010,
     "episodes": [
+      {
+        "name": "EP19",
+        "ep": 19,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/20934cb3a33fdc32f7bca52064859253"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/20934cb3a33fdc32f7bca52064859253"
+          }
+        ]
+      },
       {
         "name": "EP18",
         "ep": 18,
@@ -2218,6 +2246,20 @@
     "link": "https://myserieshd.com/dream-of-golden-years-2026/",
     "updated_at": 1774588720145,
     "episodes": [
+      {
+        "name": "EP36",
+        "ep": 36,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/6d2e3f6ff4b25d07955861141fb280c0"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/6d2e3f6ff4b25d07955861141fb280c0"
+          }
+        ]
+      },
       {
         "name": "EP35",
         "ep": 35,
