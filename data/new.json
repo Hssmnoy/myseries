@@ -541,6 +541,20 @@
     "updated_at": 1774588878700,
     "episodes": [
       {
+        "name": "EP14",
+        "ep": 14,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/d959a9e3b1303ced0dddf486d5ca335b"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/d959a9e3b1303ced0dddf486d5ca335b"
+          }
+        ]
+      },
+      {
         "name": "EP13",
         "ep": 13,
         "servers": [
@@ -1458,6 +1472,34 @@
     "link": "https://myserieshd.com/first-choice-2025/",
     "updated_at": 1774588846511,
     "episodes": [
+      {
+        "name": "EP20",
+        "ep": 20,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/cf7093bce96e9b8466e8da6ce5013111"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/cf7093bce96e9b8466e8da6ce5013111"
+          }
+        ]
+      },
+      {
+        "name": "EP19",
+        "ep": 19,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/4d1a6e4b6e3931d55f2c1e9c2893b693"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/4d1a6e4b6e3931d55f2c1e9c2893b693"
+          }
+        ]
+      },
       {
         "name": "EP18",
         "ep": 18,
