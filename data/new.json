@@ -746,6 +746,20 @@
     "updated_at": 1774588826730,
     "episodes": [
       {
+        "name": "EP20",
+        "ep": 20,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/106b80636c991c885258c5a3bb11c77f"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/106b80636c991c885258c5a3bb11c77f"
+          }
+        ]
+      },
+      {
         "name": "EP19",
         "ep": 19,
         "servers": [
@@ -1020,6 +1034,20 @@
     "link": "https://myserieshd.com/money-my-love-2026/",
     "updated_at": 1774588838010,
     "episodes": [
+      {
+        "name": "EP20",
+        "ep": 20,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/cfeb0ad3f7a18660e35f4d72bf2c5e75"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/cfeb0ad3f7a18660e35f4d72bf2c5e75"
+          }
+        ]
+      },
       {
         "name": "EP19",
         "ep": 19,
