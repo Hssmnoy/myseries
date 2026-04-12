@@ -234,6 +234,20 @@
     "updated_at": 1774588958374,
     "episodes": [
       {
+        "name": "EP4",
+        "ep": 4,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/23fbb0ea8d2f6a08424999bf1dd50b9d"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/23fbb0ea8d2f6a08424999bf1dd50b9d"
+          }
+        ]
+      },
+      {
         "name": "EP3",
         "ep": 3,
         "servers": [
@@ -284,6 +298,20 @@
     "link": "https://myserieshd.com/duang-with-you-2026/",
     "updated_at": 1774588929212,
     "episodes": [
+      {
+        "name": "EP11",
+        "ep": 11,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/e4335e4dea16d893a8fb53c5da63f6c6"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/e4335e4dea16d893a8fb53c5da63f6c6"
+          }
+        ]
+      },
       {
         "name": "EP10",
         "ep": 10,
