@@ -583,6 +583,20 @@
     "updated_at": 1774605177083,
     "episodes": [
       {
+        "name": "EP15",
+        "ep": 15,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/0fc1f23da6994660463a65e7e5762bfb"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/0fc1f23da6994660463a65e7e5762bfb"
+          }
+        ]
+      },
+      {
         "name": "EP14",
         "ep": 14,
         "servers": [
@@ -787,6 +801,20 @@
     "link": "https://myserieshd.com/the-gift-2026/",
     "updated_at": 1774605157355,
     "episodes": [
+      {
+        "name": "EP21",
+        "ep": 21,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/d49fef696d4323c25aaa061f3d633207"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/d49fef696d4323c25aaa061f3d633207"
+          }
+        ]
+      },
       {
         "name": "EP20",
         "ep": 20,
