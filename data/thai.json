@@ -6,6 +6,20 @@
     "updated_at": 1774886554978,
     "episodes": [
       {
+        "name": "EP5",
+        "ep": 5,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/10f9511872f516e4ebe4e3451c9a82df"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/10f9511872f516e4ebe4e3451c9a82df"
+          }
+        ]
+      },
+      {
         "name": "EP4",
         "ep": 4,
         "servers": [
@@ -70,6 +84,20 @@
     "link": "https://myserieshd.com/my-romance-scammer-2026/",
     "updated_at": 1774605216424,
     "episodes": [
+      {
+        "name": "EP12",
+        "ep": 12,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/61d0e201ba0de8e4d603201adb7f3ae9"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/61d0e201ba0de8e4d603201adb7f3ae9"
+          }
+        ]
+      },
       {
         "name": "EP11",
         "ep": 11,
@@ -377,6 +405,20 @@
     "link": "https://myserieshd.com/duang-with-you-2026/",
     "updated_at": 1774605222182,
     "episodes": [
+      {
+        "name": "EP12",
+        "ep": 12,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/cab769087819373717dff2c0c72c4bd8"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/cab769087819373717dff2c0c72c4bd8"
+          }
+        ]
+      },
       {
         "name": "EP11",
         "ep": 11,
