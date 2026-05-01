@@ -1627,6 +1627,34 @@
     "updated_at": 1774605210648,
     "episodes": [
       {
+        "name": "EP7",
+        "ep": 7,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/0d6c7a5d0f298cbd950f8bc61694f186"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/0d6c7a5d0f298cbd950f8bc61694f186"
+          }
+        ]
+      },
+      {
+        "name": "EP6",
+        "ep": 6,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/ff613e4172df500d66cd8b703c0978d9"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/ff613e4172df500d66cd8b703c0978d9"
+          }
+        ]
+      },
+      {
         "name": "EP5",
         "ep": 5,
         "servers": [
@@ -1705,6 +1733,34 @@
     "link": "https://myserieshd.com/the-last-duel-2026/",
     "updated_at": 1774605180654,
     "episodes": [
+      {
+        "name": "EP10",
+        "ep": 10,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/f46e0a9b493bbecb80433321c88c5bdb"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/f46e0a9b493bbecb80433321c88c5bdb"
+          }
+        ]
+      },
+      {
+        "name": "EP9",
+        "ep": 9,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/92bc8abaeb14de383f636d021ec3c07c"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/92bc8abaeb14de383f636d021ec3c07c"
+          }
+        ]
+      },
       {
         "name": "EP8",
         "ep": 8,
