@@ -6,6 +6,20 @@
     "updated_at": 1774886380441,
     "episodes": [
       {
+        "name": "EP5",
+        "ep": 5,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/10f9511872f516e4ebe4e3451c9a82df"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/10f9511872f516e4ebe4e3451c9a82df"
+          }
+        ]
+      },
+      {
         "name": "EP4",
         "ep": 4,
         "servers": [
@@ -70,6 +84,20 @@
     "link": "https://myserieshd.com/my-romance-scammer-2026/",
     "updated_at": 1774588923403,
     "episodes": [
+      {
+        "name": "EP12",
+        "ep": 12,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/61d0e201ba0de8e4d603201adb7f3ae9"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/61d0e201ba0de8e4d603201adb7f3ae9"
+          }
+        ]
+      },
       {
         "name": "EP11",
         "ep": 11,
@@ -234,6 +262,20 @@
     "updated_at": 1774588909491,
     "episodes": [
       {
+        "name": "EP6",
+        "ep": 6,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/47fc38e104257d04b3fca6e55e163dd9"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/47fc38e104257d04b3fca6e55e163dd9"
+          }
+        ]
+      },
+      {
         "name": "EP5",
         "ep": 5,
         "servers": [
@@ -313,6 +355,34 @@
     "updated_at": 1774588958374,
     "episodes": [
       {
+        "name": "EP6",
+        "ep": 6,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/76bff6ac98a8b78a6a0907f6d726ce5a"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/76bff6ac98a8b78a6a0907f6d726ce5a"
+          }
+        ]
+      },
+      {
+        "name": "EP5",
+        "ep": 5,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/d8fa5adfdc2b26330e4fa0afb8c218f1"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/d8fa5adfdc2b26330e4fa0afb8c218f1"
+          }
+        ]
+      },
+      {
         "name": "EP4",
         "ep": 4,
         "servers": [
@@ -377,6 +447,20 @@
     "link": "https://myserieshd.com/duang-with-you-2026/",
     "updated_at": 1774588929212,
     "episodes": [
+      {
+        "name": "EP12",
+        "ep": 12,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/cab769087819373717dff2c0c72c4bd8"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/cab769087819373717dff2c0c72c4bd8"
+          }
+        ]
+      },
       {
         "name": "EP11",
         "ep": 11,
@@ -866,6 +950,62 @@
     "link": "https://myserieshd.com/the-gift-2026/",
     "updated_at": 1774588826730,
     "episodes": [
+      {
+        "name": "EP26",
+        "ep": 26,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/930315d57a0c9050614802b1a0ff4e52"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/930315d57a0c9050614802b1a0ff4e52"
+          }
+        ]
+      },
+      {
+        "name": "EP25",
+        "ep": 25,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/40a5b6298985ec36c1e314c1d3ac4b8e"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/40a5b6298985ec36c1e314c1d3ac4b8e"
+          }
+        ]
+      },
+      {
+        "name": "EP24",
+        "ep": 24,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/6f4bc6545c4d41b42c013f4a5e934417"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/6f4bc6545c4d41b42c013f4a5e934417"
+          }
+        ]
+      },
+      {
+        "name": "EP23",
+        "ep": 23,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/a88fad0da66217a89dcbf1316a1ae933"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/a88fad0da66217a89dcbf1316a1ae933"
+          }
+        ]
+      },
       {
         "name": "EP22",
         "ep": 22,
