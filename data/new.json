@@ -732,6 +732,20 @@
     "updated_at": 1774588878700,
     "episodes": [
       {
+        "name": "EP16",
+        "ep": 16,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/1f4a2b67152c655fed23d1d86ce31bf0"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/1f4a2b67152c655fed23d1d86ce31bf0"
+          }
+        ]
+      },
+      {
         "name": "EP15",
         "ep": 15,
         "servers": [
@@ -3119,6 +3133,34 @@
     "updated_at": 1774588911845,
     "episodes": [
       {
+        "name": "EP7",
+        "ep": 7,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/0d6c7a5d0f298cbd950f8bc61694f186"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/0d6c7a5d0f298cbd950f8bc61694f186"
+          }
+        ]
+      },
+      {
+        "name": "EP6",
+        "ep": 6,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/ff613e4172df500d66cd8b703c0978d9"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/ff613e4172df500d66cd8b703c0978d9"
+          }
+        ]
+      },
+      {
         "name": "EP5",
         "ep": 5,
         "servers": [
@@ -3197,6 +3239,34 @@
     "link": "https://myserieshd.com/the-last-duel-2026/",
     "updated_at": 1774588881766,
     "episodes": [
+      {
+        "name": "EP10",
+        "ep": 10,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/f46e0a9b493bbecb80433321c88c5bdb"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/f46e0a9b493bbecb80433321c88c5bdb"
+          }
+        ]
+      },
+      {
+        "name": "EP9",
+        "ep": 9,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/92bc8abaeb14de383f636d021ec3c07c"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/92bc8abaeb14de383f636d021ec3c07c"
+          }
+        ]
+      },
       {
         "name": "EP8",
         "ep": 8,
@@ -3318,6 +3388,62 @@
     "link": "https://myserieshd.com/friends-on-fire-2026/",
     "updated_at": 1774588891690,
     "episodes": [
+      {
+        "name": "EP24",
+        "ep": 24,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/4c68e76ca18f1a34d076c864ac68e0be"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/4c68e76ca18f1a34d076c864ac68e0be"
+          }
+        ]
+      },
+      {
+        "name": "EP23",
+        "ep": 23,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/6a6239202d394c95b8d0e8d499f480ab"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/6a6239202d394c95b8d0e8d499f480ab"
+          }
+        ]
+      },
+      {
+        "name": "EP22",
+        "ep": 22,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/25252acf16f310baec38b4686c6fedac"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/25252acf16f310baec38b4686c6fedac"
+          }
+        ]
+      },
+      {
+        "name": "EP21",
+        "ep": 21,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/5e46edbb370932abe2292d9483e5e4e1"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/5e46edbb370932abe2292d9483e5e4e1"
+          }
+        ]
+      },
       {
         "name": "EP20",
         "ep": 20,
