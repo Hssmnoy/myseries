@@ -369,6 +369,20 @@
     "updated_at": 1774588958374,
     "episodes": [
       {
+        "name": "EP7",
+        "ep": 7,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/6fe2c48d91a414c1793b06b2e222aea7"
+          },
+          {
+            "name": "backup",
+            "url": "https://ok-hd.com/play/6fe2c48d91a414c1793b06b2e222aea7"
+          }
+        ]
+      },
+      {
         "name": "EP6",
         "ep": 6,
         "servers": [
