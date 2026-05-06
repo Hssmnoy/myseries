@@ -1911,6 +1911,34 @@
     "updated_at": 1774605190554,
     "episodes": [
       {
+        "name": "EP26",
+        "ep": 26,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/d144372c23100daf213981e89d0126fe"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/d144372c23100daf213981e89d0126fe"
+          }
+        ]
+      },
+      {
+        "name": "EP25",
+        "ep": 25,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/73394fe0aa30818501bd59b5a63da61b"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/73394fe0aa30818501bd59b5a63da61b"
+          }
+        ]
+      },
+      {
         "name": "EP24",
         "ep": 24,
         "servers": [
