@@ -993,6 +993,20 @@
     "updated_at": 1774588826730,
     "episodes": [
       {
+        "name": "EP27",
+        "ep": 27,
+        "servers": [
+          {
+            "name": "main",
+            "url": "https://ok-hd.com/play/afdc111506f68b93afb109f07c89c5f2"
+          },
+          {
+            "name": "backup",
+            "url": "https://top-cdn.com/play/afdc111506f68b93afb109f07c89c5f2"
+          }
+        ]
+      },
+      {
         "name": "EP26",
         "ep": 26,
         "servers": [
