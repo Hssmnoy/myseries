@@ -1,0 +1,38 @@
+{
+  "name": "MyseriesHD",
+  "author": "8/5/2569",
+  "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
+  "url": "https://myserieshd.com/",
+  "groups": [
+    {
+      "name": "new",
+      "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
+      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/new.json"
+    },
+    {
+      "name": "chinese",
+      "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
+      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/chinese.json"
+    },
+    {
+      "name": "korea",
+      "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
+      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/korea.json"
+    },
+    {
+      "name": "japan",
+      "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
+      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/japan.json"
+    },
+    {
+      "name": "thai",
+      "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
+      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/thai.json"
+    },
+    {
+      "name": "short",
+      "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
+      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/short.json"
+    }
+  ]
+}
