@@ -112,7 +112,13 @@ async function scrapeDetail(url, existingData) {
   const { data } = await axios.get(url);
   const $ = cheerio.load(data);
 
-  const title = $("h1.single-title").text().trim();
+  let title = $("h1.single-title").text().trim();
+
+// 🔥 ตัด prefix ดู + ประเภท (แบบ robust)
+title = title
+  .replace(/^ดู\s*(ละคร|ซีรี่ย์|ซีรีส์|หนัง)\s*/g, "")
+  .replace(/^ดู\s+/g, "")
+  .trim();
   const image = $('meta[property="og:image"]').attr("content");
   const postId = $("article").attr("id").replace("post-", "");
 
@@ -244,22 +250,22 @@ async function runCategory(name, path) {
     if (existing) {
 
       if (data.newEpisodes.length > 0) {
-        newEpisodeInPage = true;
+  newEpisodeInPage = true;
 
-        existing.episodes.push(...data.newEpisodes);
-        existing.episodes.sort((a, b) => b.ep - a.ep);
+  existing.episodes.push(...data.newEpisodes);
+  existing.episodes.sort((a, b) => b.ep - a.ep);
 
-        if (!existing._moved) {
-          const index = results.findIndex(x => x.link === existing.link);
-          if (index > 0) {
-            results.splice(index, 1);
-            results.unshift(existing);
-          }
-          existing._moved = true;
-        }
+  existing.updated_at = Date.now();
 
-        console.log(`✨ UPDATE ${data.title} +${data.newEpisodes.length}`);
-      }
+  const index = results.findIndex(x => x.link === existing.link);
+
+  if (index > 0) {
+    results.splice(index, 1);
+    results.unshift(existing);
+  }
+
+  console.log(`✨ UPDATE ${data.title} +${data.newEpisodes.length}`);
+}
 
     } else {
 
