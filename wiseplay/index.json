@@ -7,32 +7,32 @@
     {
       "name": "new",
       "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
-      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/new.json"
+      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/wiseplay/new.json"
     },
     {
       "name": "chinese",
       "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
-      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/chinese.json"
+      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/wiseplay/chinese.json"
     },
     {
       "name": "korea",
       "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
-      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/korea.json"
+      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/wiseplay/korea.json"
     },
     {
       "name": "japan",
       "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
-      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/japan.json"
+      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/wiseplay/japan.json"
     },
     {
       "name": "thai",
       "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
-      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/thai.json"
+      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/wiseplay/thai.json"
     },
     {
       "name": "short",
       "image": "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
-      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/short.json"
+      "url": "https://raw.githubusercontent.com/Hssmnoy/myseries/main/wiseplay/short.json"
     }
   ]
 }
