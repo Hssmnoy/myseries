@@ -11,9 +11,6 @@ const MODE = process.env.MODE || "update"; // full | update | test
 const TEST_LIMIT = 1;
 const TEST_URL = process.env.TEST_URL || null;
 
-// 🔥 commit ทุกกี่เรื่อง
-const COMMIT_EVERY = 10;
-
 const CATEGORIES = {
   new: "/no-end/",
   chinese: "/channel/chinese/",
@@ -292,11 +289,7 @@ async function runCategory(name, path) {
 
     processedCount++;
     count++;
-
-    if (processedCount % COMMIT_EVERY === 0) {
-      autoCommit();
-    }
-
+  
   } catch (err) {
     console.log("❌ ERROR:", link);
   }
