@@ -191,7 +191,9 @@ function buildWiseplayJSON(groupName, movies) {
     let group = {
       name: movie.title,
       author: today,
-      image: movie.image,
+      image: movie.image
+      ? `https://images.weserv.nl/?url=${encodeURIComponent(movie.image)}&w=300&h=450&fit=cover&output=jpg`
+      : "",
       stations: []
     }
 
@@ -199,7 +201,9 @@ function buildWiseplayJSON(groupName, movies) {
 
       group.stations.push({
         name: ep.name.replace("EP","ตอนที่ "),
-        image: movie.image,
+        image: movie.image
+        ? `https://images.weserv.nl/?url=${encodeURIComponent(movie.image)}&w=300&h=450&fit=cover&output=jpg`
+        : "",
         url: ep.servers[0].url,
         referer: DOMAIN
       })
