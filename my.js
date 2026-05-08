@@ -2,10 +2,10 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs-extra");
 const { execSync } = require("child_process");
-
+const WISEPLAY_DIR = "wiseplay";
 const BASE = "https://myserieshd.com";
 const API = BASE + "/wp-content/themes/getplayer-2025/framework/get-video.php";
-
+const DOMAIN = "https://myserieshd.com";
 // 🔥 MODE
 const MODE = process.env.MODE || "update"; // full | update | test
 const TEST_LIMIT = 1;
@@ -33,10 +33,8 @@ try {
 }
 
 let processedCount = 0;
+let ALL_RESULTS = {};
 
-// =========================
-// 🔥 COMMIT FUNCTION (กันพัง)
-// =========================
 function autoCommit() {
   try {
     execSync(`git config user.name "github-actions"`);
@@ -174,6 +172,87 @@ title = title
   return { title, image, newEpisodes };
 }
 
+function buildWiseplayJSON(groupName, movies) {
+
+  console.log("📺 BUILD WISEPLAY:", groupName)
+
+  const today = new Date().toLocaleDateString("th-TH")
+
+  const output = {
+    name: groupName,
+    author: today,
+    image: "",
+    url: DOMAIN,
+    groups: []
+  }
+
+  for (const movie of movies) {
+
+    let group = {
+      name: movie.title,
+      author: today,
+      image: movie.image,
+      stations: []
+    }
+
+    for (const ep of movie.episodes) {
+
+      group.stations.push({
+        name: ep.name.replace("EP","ตอนที่ "),
+        image: movie.image,
+        url: ep.servers[0].url,
+        referer: DOMAIN
+      })
+
+    }
+
+    // 🔥 เรียงตอนใหม่ขึ้นบน
+    group.stations.sort((a,b)=>{
+      const aNum = parseInt(a.name.replace("ตอนที่ ",""))
+      const bNum = parseInt(b.name.replace("ตอนที่ ",""))
+      return bNum - aNum
+    })
+
+    if (group.stations.length > 0) {
+      output.groups.push(group)
+    }
+
+  }
+
+  const file = `${WISEPLAY_DIR}/${groupName}.json`
+
+  fs.writeFileSync(file, JSON.stringify(output, null, 2))
+
+  console.log("✅ WISEPLAY JSON:", file)
+}
+
+
+function generateIndex(jsonOutput) {
+  const baseRaw = "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/";
+
+  const index = {
+    name: "MyseriesHD",
+    author: new Date().toLocaleDateString("th-TH"),
+    image: "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
+    url: "https://myserieshd.com/",
+    groups: []
+  };
+
+  for (const group in jsonOutput) {
+    index.groups.push({
+      name: group,
+      image: "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
+      url: `${baseRaw}${group}.json`
+    });
+  }
+
+  const file = `${WISEPLAY_DIR}/index.json`;
+
+  fs.writeFileSync(file, JSON.stringify(index, null, 2));
+
+  console.log("📦 index.json created");
+}
+
 // =========================
 
 async function runCategory(name, path) {
@@ -185,6 +264,8 @@ async function runCategory(name, path) {
   let results = fs.existsSync(`data/${name}.json`)
     ? fs.readJsonSync(`data/${name}.json`)
     : [];
+  
+  ALL_RESULTS[name] = results; 
   let emptyPageCount = 0;
 
 
@@ -316,13 +397,15 @@ if (page > 30) {
   }
 
   console.log(`\n✅ DONE ${name}`);
+
+ALL_RESULTS[name] = results;
 }
 
 // =========================
 
 (async () => {
   await fs.ensureDir("data");
-
+  await fs.ensureDir(WISEPLAY_DIR);
   console.log(`🚀 MODE: ${MODE}`);
 
   for (let [name, path] of Object.entries(CATEGORIES)) {
@@ -331,5 +414,12 @@ if (page > 30) {
 
   autoCommit(); // 🔥 commit ปิดท้าย
 
-  console.log("\n🎉 ALL DONE");
+buildWiseplayJSON(
+  "all",
+  Object.values(ALL_RESULTS).flat()
+);
+
+generateIndex(ALL_RESULTS);
+
+console.log("\n🎉 ALL DONE");
 })();
