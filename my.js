@@ -228,7 +228,7 @@ function buildWiseplayJSON(groupName, movies) {
 
 
 function generateIndex(jsonOutput) {
-  const baseRaw = "https://raw.githubusercontent.com/Hssmnoy/myseries/main/data/";
+  const baseRaw = "https://raw.githubusercontent.com/Hssmnoy/myseries/main/wiseplay/";
 
   const index = {
     name: "MyseriesHD",
@@ -414,10 +414,9 @@ ALL_RESULTS[name] = results;
 
   autoCommit(); // 🔥 commit ปิดท้าย
 
-buildWiseplayJSON(
-  "all",
-  Object.values(ALL_RESULTS).flat()
-);
+for (const [name, movies] of Object.entries(ALL_RESULTS)) {
+  buildWiseplayJSON(name, movies);
+}
 
 generateIndex(ALL_RESULTS);
 
