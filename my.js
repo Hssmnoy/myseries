@@ -181,7 +181,7 @@ function buildWiseplayJSON(groupName, movies) {
   const output = {
     name: groupName,
     author: today,
-    image: "",
+    image: "https://myserieshd.com/wp-content/uploads/2025/05/logo1-2.webp",
     url: DOMAIN,
     groups: []
   }
